@@ -1,12 +1,12 @@
 import './styles.css'
+import Perfil from './../../assets/perfil.svg'
 
-export default function CardSuporte(props) {
+export default function Card(props) {
   return (
-    <div className='CardSuporte'>
-      <img className='imgSuporte' src={props.img} alt=""></img>
+    <div className='Card'>
       <span>{props.titulo}</span>
-      <a href={props.subtitulo}></a>
-
+      <div class="progress"> <div class="progress-value">70%</div></div>
     </div>
+    
   )
 }

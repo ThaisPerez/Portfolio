@@ -1,0 +1,24 @@
+.Card-img{
+    width: 542px;
+    height: 542px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.progress-value {
+  display: flex;
+  padding: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #777777;
+}
