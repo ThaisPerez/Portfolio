@@ -2,10 +2,10 @@ import './styles.css'
 
 export default function Card(props) {
   return (
-    <div className='Card'>
+    <div className='Cards'>
       <img className='imgSuporte' src={props.img} alt=""></img>
       <span>{props.titulo}</span>
-      <a>{props.subtitulo}</a>
+      <p>{props.subtitulo}</p>
       </div>
 
   )
