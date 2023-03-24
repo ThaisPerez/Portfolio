@@ -57,7 +57,7 @@ function Carousel() {
     <div className="App">
       <Slider {...settings}>
         {dataDigitalBestSeller.map((item) => (
-          <div className="card">
+          <div className="cardd">
             <div className="card-top">
               <img
                 src={

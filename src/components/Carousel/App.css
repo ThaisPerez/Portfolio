@@ -1,5 +1,5 @@
 body {
-  background: #ccc;
+
 }
 .App {
   width: 70%;
@@ -14,11 +14,12 @@ body {
   margin: 0 -10px;
 }
 
-.card {
+.cardd {
   border: 1px solid #fff;
   background: black;
   border-radius: 8px;
   overflow: hidden;
+  
 
   height: 400px;
   color: #fff;
