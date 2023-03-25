@@ -1,11 +1,11 @@
+import Screenshot from '../../assets/Screenshot_2.png'
+
 export const dataDigitalBestSeller = [
   {
     id: 1,
-    title: 'Mario Kart™ 8 Deluxe',
-    price: '$59.99',
+    title: 'Site exemplo card',
     category: 'Nintendo Switch',
-    linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/m/mario-kart-8-deluxe-switch/hero?_a=AJADJWI0',
+    linkImg: Screenshot,
   },
   {
     id: 2,

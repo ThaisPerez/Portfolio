@@ -7,4 +7,34 @@
   background: #4C1D95;
   color: #E5E7EB;
   
+  }
+  .Navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:0px 24px ;
+  }
+  .containerText{ 
+  display: flex;
+  padding: 10px 0px;
+  gap: 20px ;
+  justify-content: center;
+  align-items: center;
+  }
+.container img{
+  width: 30px;
+  height: 30px;
+  border-radius: 24px;
+
+}
+.NavbarContent{
+background:#5B21B6;
+padding: 0px 8px;
+border-radius: 12px;
+display: flex;
+align-items: center;
+width: 166px;
+height: 40px;
+gap: 10px;
+
 }

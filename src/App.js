@@ -7,6 +7,7 @@ import Uniron from './assets/uniron.svg';
 import Samar from './assets/samar.svg';
 import Coimbra from './assets/coimbra.svg';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -79,7 +80,8 @@ function App() {
           subtitulo="Teste com cypress, selenium, montagem de cenarios "
         />
       </div>
-      <Carousel/>
+      <Carousel />
+      <Footer />
     </div>
   );
 }

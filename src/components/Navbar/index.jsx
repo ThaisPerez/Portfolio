@@ -1,14 +1,25 @@
 import './styles.css'
-  function Navbar() {
+import Profile from '../../assets/profile.gif'
+import Caret from '../../assets/Caret.svg'
 
-    return (
-      <div className="container">
-        <nav>
+function Navbar() {
+
+  return (
+    <div className="container">
+      <nav className='Navbar'>
+        <div></div>
+        <div className="containerText">
           <a >Início</a>
           <a>Sobre mim </a>
-        </nav>
-      </div>
-    );
-  }
+          <div className='NavbarContent'>
+            <img src={Profile} alt="" />
+            <span>Thais Perez</span>
+            <img src={Caret} alt="" />
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
+}
 
-  export default Navbar;
+export default Navbar;
