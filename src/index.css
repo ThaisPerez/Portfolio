@@ -48,7 +48,7 @@ code {
 }
 .grid-container-experiencia {
   display: grid;
-  grid-template-columns: 261px 261px ;
+  grid-template-columns: 261px 261px 261px 261px ;
   padding: 10px;
   gap: 50px;
   justify-content: center;

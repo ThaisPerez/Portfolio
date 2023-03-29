@@ -23,7 +23,7 @@ function App() {
               tecnologia.
             </p>
             <div className="ContainerCard">
-              <Container titulo="Redes de computadores" cor="#2864D9"/>
+              <Container titulo="Redes de computadores" cor="#2864D9" />
               <Container titulo="Informática  Básica" cor="#2864D9" />
               <Container titulo="Sistemas Operacionais" cor="#6D28D9" />
               <Container titulo="React" cor="#2864D9" />
@@ -80,7 +80,9 @@ function App() {
           subtitulo="Teste com cypress, selenium, montagem de cenarios "
         />
       </div>
-      <Carousel />
+      <div className='carousel'>
+        <Carousel />
+      </div>
       <Footer />
     </div>
   );

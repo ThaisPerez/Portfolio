@@ -1,11 +1,39 @@
-body {
-
-}
-.App {
-  width: 70%;
+.AppCard {
+  width: 62.8%;
   margin: 0 auto;
   margin-top: 50px;
 }
+
+.Containerbotao{
+  display: flex;
+  width:100%;
+  justify-content: center;
+align-items: center;
+}
+.botao
+{
+  display: flex;
+  justify-content: center;
+    margin-top: 10px;
+    height: 20px;
+    padding: 10px;
+    background: rgb(42, 142, 55, 0);
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+    width: 70%
+
+  }
+     .botao:hover {
+       /*opacity: 0.3;*/
+       background: #5B21B6;
+       transform: scale(1.2);
+       /* Equal to scaleX(2) scaleY(2) */
+       transition-duration: 0.5s;
+       /*transform: scale(0.6);*/
+     }
 
 .slick-slide > div {
   margin: 0 10px;
@@ -16,7 +44,7 @@ body {
 
 .cardd {
   border: 1px solid #fff;
-  background: black;
+  background: #27272A;
   border-radius: 8px;
   overflow: hidden;
   
