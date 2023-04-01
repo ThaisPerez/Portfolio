@@ -53,6 +53,7 @@ function Carousel() {
 
   return (
     <div className="AppCard">
+      <p>Projetos</p>
       <Slider {...settings}>
         {dataDigitalBestSeller.map((item) => (
           <div className="cardd">

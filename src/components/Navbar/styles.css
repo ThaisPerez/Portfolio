@@ -21,6 +21,11 @@
   justify-content: center;
   align-items: center;
   }
+ .containerText a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
 .container img{
   width: 30px;
   height: 30px;

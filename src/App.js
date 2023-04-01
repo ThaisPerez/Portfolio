@@ -17,10 +17,9 @@ function App() {
       <div className="Container">
         <div className="ContainerHeader">
           <div className="Container-Img">
-            <p>
-              Olá, meu nome é Thais, trabalho atualmente como técnica de garantia da qualidade.
-              Gosto de desafios novos para poder adquirir novos conhecimentos e sou apaixonada por
-              tecnologia.
+             <p id="Texto">
+              Trabalho atualmente no cargo quality assurance jr na Distribuidora Coimbra.
+              Gosto de desafios novos para poder adquirir novos conhecimentos.
             </p>
             <div className="ContainerCard">
               <Card porcentagem="progress-value-65" valor="65%" titulo="Redes de computadores" cor="#2864D9" />
@@ -39,7 +38,8 @@ function App() {
           <img src={Perfil} alt="" />
         </div>
       </div>
-
+      <div className="textoFormacao">
+        <p id='formacao'>Formação</p></div>
       <div className="grid-container-formacao">
         <ContainerExperiencias
           class="grid-item"
@@ -52,8 +52,11 @@ function App() {
           img={Uniron}
           titulo="CST em Redes de Computadores"
           subtitulo="Tecnólogo."
-        />
-      </div>
+          />
+          </div>
+     
+      <div className="textoExperencia">
+        <p id="experiencia"> Experiências</p></div>
       <div className="grid-container-experiencia">
         <ContainerExperiencias
           class="grid-item"
@@ -78,7 +81,7 @@ function App() {
           img={Coimbra}
           titulo="Técnico de qualidade"
           subtitulo="Teste com cypress, selenium, montagem de cenarios "
-        />
+          />
       </div>
       <div className='carousel'>
         <Carousel />

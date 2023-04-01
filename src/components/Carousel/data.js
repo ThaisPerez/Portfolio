@@ -4,6 +4,7 @@ import Portfolio from './../../assets/portfolio.png'
 
 export const dataDigitalBestSeller = [
   {
+    
     id: 1,
     title: 'Site exemplo card',
     category: 'Site com a linguagem realizado com linguagem em react',
