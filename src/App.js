@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar';
-import Container from './components/Container';
+import Card from './components/Card';
 import Perfil from './assets/perfil.svg';
 import ContainerExperiencias from './components/ContainerExperiencias';
 import Ipam from './assets/ipam.svg';
@@ -23,15 +23,15 @@ function App() {
               tecnologia.
             </p>
             <div className="ContainerCard">
-              <Container titulo="Redes de computadores" cor="#2864D9" />
-              <Container titulo="Informática  Básica" cor="#2864D9" />
-              <Container titulo="Sistemas Operacionais" cor="#6D28D9" />
-              <Container titulo="React" cor="#2864D9" />
-              <Container titulo="CSS" cor="#3D12EC" />
-              <Container titulo="HTML" cor="#FF3D00" />
-              <Container titulo="Bootstrap" cor="#6D28D9" />
-              <Container titulo="PHP" cor="#6D28D9" />
-              <Container titulo="Selenium" cor="#28D944" />
+              <Card porcentagem="progress-value-65" valor="65%" titulo="Redes de computadores" cor="#2864D9" />
+              <Card porcentagem="progress-value-80" valor="80%" titulo="Informática  Básica" cor="#2864D9" />
+              <Card porcentagem="progress-value-80" valor="80%" titulo="Sistemas Operacionais" cor="#6D28D9" />
+              <Card porcentagem="progress-value-15" valor="15%" titulo="React" cor="#2864D9" />
+              <Card porcentagem="progress-value-30" valor="30%" titulo="CSS" cor="#3D12EC" />
+              <Card porcentagem="progress-value-30" valor="30%" titulo="HTML" cor="#FF3D00" />
+              <Card porcentagem="progress-value-45" valor="45%" titulo="Bootstrap" cor="#6D28D9" />
+              <Card porcentagem="progress-value-30" valor="30%" titulo="PHP" cor="#6D28D9" />
+              <Card porcentagem="progress-value-30" valor="30%" titulo="Cypress" cor="#28D944" />
             </div>
           </div>
         </div>

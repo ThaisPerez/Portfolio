@@ -1,10 +1,19 @@
 .footerContainer {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   justify-content: center;
   margin-top: 100px;
   gap: 64px;
   height: 157px ;
+=======
+  width: 100%;
+  height: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+>>>>>>> 412a6c6b625a45fcda3e6da1b7eba15336d5d451
 }
 .footerContainer img {
   width: 40px;
