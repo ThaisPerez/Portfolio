@@ -1,0 +1,101 @@
+.Card{
+  display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+    gap: 10px
+}
+.Card-img{
+    width: 542px;
+    height: 542px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.progress {
+  background: rgba(13, 85, 208, 0.1);
+  text-align: center;
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 31px;
+  width: 182px;
+}
+
+.progress-value {
+  box-shadow: 0 10px 40px -10px rgb(65, 13, 108);
+  border-radius: 100px;
+  background: #700c6c;
+  height: 30px;
+  width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+}
+.progress-value-65 {
+  animation: redes 3s normal forwards;
+}
+
+
+@keyframes redes {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+.progress-value-80 {
+  animation: informatica 3s normal forwards;
+}
+@keyframes informatica {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+.progress-value-15 {
+  animation: react 3s normal forwards;
+}
+@keyframes react {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 15%;
+  }
+}
+.progress-value-30 {
+  animation: basico 3s normal forwards;
+}
+@keyframes basico {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+.progress-value-45 {
+  animation: boostrap 3s normal forwards;
+}
+@keyframes boostrap {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 45%;
+  }
+}

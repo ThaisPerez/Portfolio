@@ -1,5 +1,6 @@
 import Screenshot from '../../assets/Screenshot_2.png'
 import Suporte from '../../assets/suporte.png'
+import Portfolio from './../../assets/portfolio.png'
 
 export const dataDigitalBestSeller = [
   {
@@ -20,18 +21,10 @@ export const dataDigitalBestSeller = [
   },
   {
     id: 3,
-    title: 'Pokémon™ Legends: Arceus',
-    category: 'Nintendo Switch',
+    title: 'Porfólio',
+    category: 'Site com informações de trabalhos realizados e cursos.',
     link1: 'Acessar Site',
-    linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero?_a=AJADJWI0',
-  },
-  {
-    id: 4,
-    title: 'Super Mario™ 3D World + Bowser’s Fury',
-    category: 'Nintendo Switch',
-    linkImg:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/s/super-mario-3d-world-plus-bowsers-fury-switch/hero?_a=AJADJWI0',
+    linkImg: Portfolio,
   },
 
 ];

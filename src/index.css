@@ -19,13 +19,17 @@ code {
 .Container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 24px;
   gap: 50px;
 }
 
 .ContainerHeader {
+  width: 621px;
+  height: 341px;
   display: flex;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
 }
 .Content {
   display: flex;
@@ -35,8 +39,8 @@ code {
 .ContainerCard {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
-  width: 621px;
+  width: 100%;
+  gap: 20px;
 }
 .grid-container-formacao {
   display: grid;

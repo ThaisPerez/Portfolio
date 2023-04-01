@@ -1,39 +1,54 @@
 .AppCard {
-  width: 62.8%;
+  width: 20.8%;
   margin: 0 auto;
   margin-top: 50px;
 }
 
-.Containerbotao{
+.Containerbotao {
   display: flex;
-  width:100%;
+  width: 100%;
   justify-content: center;
-align-items: center;
+  align-items: center;
+  height: 27%;
 }
-.botao
-{
+.slick-prev {
+  left: -100px;
+}
+.slick-next {
+  right: -60px;
+}
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 60px;
+  line-height: 1;
+  opacity: .75;
+  color: #5b21b6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.botao {
   display: flex;
   justify-content: center;
-    margin-top: 10px;
-    height: 20px;
-    padding: 10px;
-    background: rgb(42, 142, 55, 0);
-    color: #FFFFFF;
-    text-decoration: none;
-    border-radius: 4px;
-    display: flex;
-    gap: 10px;
-    width: 70%
+  margin-top: 10px;
+  height: 20px;
+  padding: 10px;
+  background: #5a21b6d3;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  width: 70%;
 
-  }
-     .botao:hover {
-       /*opacity: 0.3;*/
-       background: #5B21B6;
-       transform: scale(1.2);
-       /* Equal to scaleX(2) scaleY(2) */
-       transition-duration: 0.5s;
-       /*transform: scale(0.6);*/
-     }
+}
+.botao:hover {
+  /*opacity: 0.3;*/
+  background: #5b21b6;
+  transform: scale(1.2);
+  /* Equal to scaleX(2) scaleY(2) */
+  transition-duration: 0.5s;
+  /*transform: scale(0.6);*/
+}
 
 .slick-slide > div {
   margin: 0 10px;
@@ -44,14 +59,15 @@ align-items: center;
 
 .cardd {
   border: 1px solid #fff;
-  background: #27272A;
+  background: #ffffff;
   border-radius: 8px;
   overflow: hidden;
-  
-
   height: 400px;
-  color: #fff;
+  color: #52525B;
   cursor: pointer;
+  justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-top h1 {
