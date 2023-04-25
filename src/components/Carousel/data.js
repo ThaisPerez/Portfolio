@@ -27,5 +27,11 @@ export const dataDigitalBestSeller = [
     link1: 'Acessar Site',
     linkImg: Portfolio,
   },
-
+  {
+    id: 3,
+    title: 'Porfólio',
+    category: 'Site com informações de trabalhos realizados e cursos.',
+    link1: 'Acessar Site',
+    linkImg: Portfolio,
+  },
 ];
