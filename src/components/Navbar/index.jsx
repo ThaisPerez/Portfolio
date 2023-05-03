@@ -12,6 +12,7 @@ function Navbar() {
         <div className="containerText">
           <a href='#'>Início</a>
           <a href='#'>Sobre mim </a>
+          <a href='./../../pages/Cursos.jsx'>Cursos</a>
           <div className='NavbarContent'>
             <img src={Profile} alt="" />
             <span>Thais Perez</span>
