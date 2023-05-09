@@ -3,6 +3,7 @@ import './styles.css'
 import Profile from '../../assets/profile.gif'
 import Caret from '../../assets/Caret.svg'
 
+
 function Navbar() {
 
   return (
@@ -10,7 +11,7 @@ function Navbar() {
       <nav className='Navbar'>
         <div></div>
         <div className="containerText">
-          <a href='#'>Início</a>
+          <a href='./../../App.js'>Início</a>
           <a href='#'>Sobre mim </a>
           <a href='./../../pages/Cursos.jsx'>Cursos</a>
           <div className='NavbarContent'>

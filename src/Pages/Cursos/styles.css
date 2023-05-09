@@ -1,33 +1,37 @@
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: consolas;
-}
 
-.container {
-  width: 1000px;
+.containerCursos {
+  width: 100%;
+  height: 100%;
   position: relative;
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
 }
 
-.container .card {
+.containerCursos .card {
   position: relative;
   cursor: pointer;
+  
+  
 }
 
-.container .card .face {
+.containerCursos .card .face {
   width: 300px;
   height: 200px;
   transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
 }
 
-.container .card .face.face1 {
+.containerCursos .card .face.face1 {
   position: relative;
   background: #333;
   display: flex;
@@ -35,35 +39,40 @@ body {
   align-items: center;
   z-index: 1;
   transform: translateY(100px);
+  
 }
 
-.container .card:hover .face.face1 {
+.containerCursos .card:hover .face.face1 {
   background: #ff0057;
   transform: translateY(0);
+  
+  
 }
 
-.container .card .face.face1 .content {
-  opacity: 0.2;
+.containerCursos .card .face.face1 .content {
+  opacity: 0.5;
   transition: 0.5s;
 }
 
-.container .card:hover .face.face1 .content {
+.containerCursos .card:hover .face.face1 .content {
   opacity: 1;
+  
 }
 
-.container .card .face.face1 .content img {
+.containerCursos .card .face.face1 .content img {
   max-width: 100px;
+  
 }
 
-.container .card .face.face1 .content h3 {
+.containerCursos .card .face.face1 .content h3 {
   margin: 10px 0 0;
   padding: 0;
   color: #fff;
   text-align: center;
-  font-size: 1.5em;
+  
 }
 
-.container .card .face.face2 {
+.containerCursos .card .face.face2 {
   position: relative;
   background: #fff;
   display: flex;
@@ -73,18 +82,20 @@ body {
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
   transform: translateY(-100px);
+  
 }
 
-.container .card:hover .face.face2 {
+.containerCursos .card:hover .face.face2 {
   transform: translateY(0);
 }
 
-.container .card .face.face2 .content p {
+.containerCursos .card .face.face2 .content p {
   margin: 0;
   padding: 0;
+  
 }
 
-.container .card .face.face2 .content a {
+.containerCursos .card .face.face2 .content a {
   margin: 15px 0 0;
   display: inline-block;
   text-decoration: none;
@@ -94,7 +105,7 @@ body {
   border: 1px solid #333;
 }
 
-.container .card .face.face2 .content a:hover {
+.containerCursos .card .face.face2 .content a:hover {
   background: #333;
   color: #fff;
 }
