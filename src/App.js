@@ -1,13 +1,13 @@
 import Navbar from './components/Navbar';
 import Card from './components/Card';
-import Perfil from './assets/perfil.svg';
+import Perfil from './assets/perfil.png';
 import ContainerExperiencias from './components/ContainerExperiencias';
 import Ipam from './assets/ipam.svg';
 import Uniron from './assets/uniron.svg';
 import Samar from './assets/samar.svg';
 import Coimbra from './assets/coimbra.svg';
 import Carousel from './components/Carousel';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
 
 function App() {
   return (

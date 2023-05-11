@@ -11,7 +11,7 @@ function Navbar() {
       <nav className='Navbar'>
         <div></div>
         <div className="containerText">
-          <a href='./../../App.js'>Início</a>
+      
           <a href='#'>Sobre mim </a>
           <a href='./../../pages/Cursos.jsx'>Cursos</a>
           <div className='NavbarContent'>
