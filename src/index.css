@@ -12,7 +12,16 @@ code {
 }
 .Content-img
 {
-  display: flex;
+position: relative;
+  animation: animateUser 4s linear infinite;
+  top: -100px;
+  right: 50px;
+}
+@keyframes animateUser {
+  50%{
+    right: 30px;
+    top:-90px;
+  }
 }
 
 
@@ -75,6 +84,14 @@ code {
   font-size: 26px;
   text-align: center
 
+}
+
+#tituloNome{
+  color:#000000;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  
 }
 #Texto {
   line-height: 35px;

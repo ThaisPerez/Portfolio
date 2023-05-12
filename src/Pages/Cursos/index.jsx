@@ -1,9 +1,6 @@
 import './styles.css'
-import Teste from '../../assets/1.png'
-import NavBar from './../../components/Navbar'
 import Java from './../../assets/java.png'
 import Git from './../../assets/github.png'
-import Html from './../../assets/html.png'
 import Seguranca from './../../assets/seguranca.png'
 import Docker from './../../assets/docker.png'
 import Rede from './../../assets/rede.png'
@@ -13,7 +10,6 @@ import Sofware from './../../assets/2.png'
 export default function Cursos() {
   return (
         <div class="Teste">
-         <NavBar/>
          <div>
       <div class="containerCursos">
         <div class="card">
@@ -134,10 +130,8 @@ export default function Cursos() {
             <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
-        </div>
-        
-        </div>
-        
+        </div>        
+        </div>        
           </div>
 
           </div>

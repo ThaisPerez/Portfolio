@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './styles.css'
 import Profile from '../../assets/profile.gif'
-import Caret from '../../assets/Caret.svg'
+import { Link } from 'react-scroll'
 
 
 function Navbar() {
@@ -11,15 +11,18 @@ function Navbar() {
       <nav className='Navbar'>
         <div></div>
         <div className="containerText">
-      
-          <a href='#'>Sobre mim </a>
-          <a href='./../../pages/Cursos.jsx'>Cursos</a>
-          <div className='NavbarContent'>
-            <img src={Profile} alt="" />
-            <span>Thais Perez</span>
-            <img src={Caret} alt="" />
-          </div>
+        <div className="container">
+            <nav>
+                <Link spy={true} smooth={true} offset={50} duration={250} to="inicio">Início</Link>
+                <Link spy={true} smooth={true} offset={50} duration={250} to="formacao">Formação</Link>
+                <Link spy={true} smooth={true} offset={50} duration={250} to="cursos">Cursos</Link>
+                <Link spy={true} smooth={true} offset={50} duration={250} to="projetos">Projetos</Link>                
+                <Link spy={true} smooth={true} offset={50} duration={250} to="contato">Contatos</Link>
+            </nav>
         </div>
+               <img src={Profile} alt="" />
+          </div>
+        
       </nav>
     </div>
   );

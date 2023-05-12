@@ -8,22 +8,25 @@
   color: #E5E7EB;
   
   }
+  
   .Navbar{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding:0px 24px ;
+    
   }
   .containerText{ 
   display: flex;
   padding: 10px 0px;
-  gap: 20px ;
+  gap: 15px ;
   justify-content: center;
   align-items: center;
   }
  .containerText a {
   color: #E5E7EB;
   text-decoration: none;
+  margin-right:16px
 }
 
 .container img{
