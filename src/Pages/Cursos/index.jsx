@@ -21,7 +21,7 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <p></p>
             <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <p></p>
             <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <p></p>
             <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function Cursos() {
             <p id="descricaoCurso">
             DOCKER Completo - Do Zero ao Avançado 2023
             </p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <p>Construindo, testando e implementando containers com este curso.</p>
             <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default function Cursos() {
             <p id="descricaoCurso">
            teste
             </p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <p></p>
             <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
@@ -99,7 +99,7 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <p></p>
             <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
@@ -112,7 +112,7 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <p></p>
             <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+              <p></p>
             <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>

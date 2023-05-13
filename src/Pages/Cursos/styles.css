@@ -95,8 +95,10 @@
 .containerCursos .card .face.face2 .content p {
   margin: 0;
   padding: 0;
+  gap: 16px;
   
 }
+
 
 .containerCursos .card .face.face2 .content a {
   margin: 15px 0 0;
