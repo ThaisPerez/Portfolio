@@ -1,5 +1,5 @@
 .AppCard {
-  width:50%;
+  width:60%;
   margin: 0 auto;
   margin-top: 50px;
   text-align: center;
@@ -27,6 +27,9 @@
 .slick-next {
   right: -60px;
 } 
+.img-top{
+  background: #52525b;
+}
  .slick-prev:before,
 .slick-next:before {
   font-family: 'slick';
