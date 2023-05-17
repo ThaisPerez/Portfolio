@@ -9,6 +9,7 @@ import Coimbra from './assets/coimbra.svg';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 import Cursos from './Pages/Cursos';
+import PDF from './assets/teste.pdf'
 
 function App() {
   return (
@@ -19,10 +20,7 @@ function App() {
         <div className="Container">
           <div className="ContainerHeader">
             <div className="Container-Img">
-            <p id="tituloNome">
-                Thais Perez 
-              </p>
-
+            <h2>Thais Perez</h2>
               <p id="Texto">
                 Trabalho atualmente no cargo quality assurance jr na Distribuidora Coimbra.
                 Gosto de desafios novos para poder adquirir novos conhecimentos.
@@ -40,6 +38,7 @@ function App() {
               </div>
             </div>
           </div>
+     
           <div className="Content-img">
             <img src={Perfil} alt="" />
           </div>

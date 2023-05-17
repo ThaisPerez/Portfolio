@@ -85,14 +85,7 @@ position: relative;
   font-size: 26px;
   text-align: center
 
-}
 
-#tituloNome{
-  color:#000000;
-  font-size: 30px;
-  text-align: center;
-  font-weight: 500;
-  
 }
 #Texto {
   line-height: 35px;
@@ -100,3 +93,5 @@ position: relative;
   font-weight: 700;
   color:#52525B
 }
+
+
