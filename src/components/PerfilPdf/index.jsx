@@ -9,7 +9,6 @@ export default function PerfilPdf() {
 
 <div class="wrap">
 <a
-  href={ExamplePdf}
   download="Curriculo-Thais Perez"
   target="_blank"
   rel="noreferrer"
