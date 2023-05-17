@@ -10,13 +10,14 @@ import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 import Cursos from './Pages/Cursos';
 import PDF from './assets/teste.pdf'
+import PerfilPdf from './components/PerfilPdf';
 
 function App() {
   return (
     <div name="inicio">
       <div className="Todo">
         <Navbar />
-
+     
         <div className="Container">
           <div className="ContainerHeader">
             <div className="Container-Img">
@@ -35,10 +36,13 @@ function App() {
                 <Card porcentagem="progress-value-45" valor="45%" titulo="Bootstrap" cor="#6D28D9" />
                 <Card porcentagem="progress-value-30" valor="30%" titulo="PHP" cor="#6D28D9" />
                 <Card porcentagem="progress-value-30" valor="30%" titulo="Cypress" cor="#28D944" />
+             
               </div>
+            
             </div>
           </div>
-     
+          <PerfilPdf/>
+    
           <div className="Content-img">
             <img src={Perfil} alt="" />
           </div>
