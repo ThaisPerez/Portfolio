@@ -6,7 +6,7 @@ export default function PerfilPdf() {
     return (
      
 <div>
-<h3></h3>
+
 <div class="wrap">
 <a
   href={ExamplePdf}
