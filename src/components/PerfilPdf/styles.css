@@ -19,7 +19,7 @@ html, body {
     font-weight: 700;
     color: #313133;
     background: #4FD1C5;
-  background: linear-gradient(90deg, #c99292 0%, rgba(79,209,197,1) 100%);
+  background: linear-gradient(90deg, #51367a 0%, rgb(209, 79, 181) 100%);
     border: none;
     border-radius: 1000px;
     box-shadow: 12px 12px 24px rgba(79,209,197,.64);
