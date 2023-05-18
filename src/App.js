@@ -9,7 +9,6 @@ import Coimbra from './assets/coimbra.svg';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 import Cursos from './Pages/Cursos';
-import PDF from './assets/teste.pdf'
 import PerfilPdf from './components/PerfilPdf';
 
 function App() {
