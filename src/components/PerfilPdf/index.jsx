@@ -4,14 +4,15 @@ import ExamplePdf from './../../assets/teste.pdf';
 
 export default function PerfilPdf() {
     return (
-     <div class="wrap">
+     
+<div class="wrap">
 <a
   href={ExamplePdf}
   download="Curriculo"
   target="_blank"
   rel="noreferrer"
 >
-<button class="button">Baixar Currículo</button>
+<button class="botaoPerfil">Baixar Currículo</button>
 </a>
 </div>
 

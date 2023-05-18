@@ -1,6 +1,4 @@
-html, body {
-    height: 100%;
-  }
+
   
   .wrap {
     height: 100%;
@@ -9,7 +7,7 @@ html, body {
     justify-content: center;
   }
   
-  .button {
+  .botaoPerfil {
     min-width: 300px;
     min-height: 60px;
     font-family: 'Nunito', sans-serif;
@@ -30,7 +28,7 @@ html, body {
     padding: 10px;
     }
   
-  button::before {
+    botaoPerfil::before {
   content: '';
     border-radius: 1000px;
     min-width: calc(300px + 12px);
@@ -45,16 +43,16 @@ html, body {
     transition: all .3s ease-in-out 0s;
   }
   
-  .button:hover, .button:focus {
+  .botaoPerfil:hover, .button:focus {
     color: #313133;
     transform: translateY(-6px);
   }
   
-  button:hover::before, button:focus::before {
+  botaoPerfil:hover::before, button:focus::before {
     opacity: 1;
   }
   
-  button::after {
+  botaoPerfil::after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
@@ -67,7 +65,7 @@ html, body {
     animation: ring 1.5s infinite;
   }
   
-  button:hover::after, button:focus::after {
+  botaoPerfil:hover::after, button:focus::after {
     animation: none;
     display: none;
   }
