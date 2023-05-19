@@ -22,7 +22,7 @@ export default function Cursos() {
           <div class="face face2">
             <div class="content">
               <p></p>
-            <a href="http://localhost:3000/">Read More</a>
+              <h5>2022</h5>
             </div>
           </div>
         </div>
@@ -66,10 +66,9 @@ export default function Cursos() {
           <div class="face face2">
             <div class="content">
             <p id="descricaoCurso">
-            DOCKER Completo - Do Zero ao Avançado 2023
-            </p>
-              <p>Construindo, testando e implementando containers com este curso.</p>
-            <a href="http://localhost:3000/">Read More</a>
+           
+            <h5> DOCKER Completo - Do Zero ao Avançado 2023</h5>  </p>   
+              <p></p>
             </div>
           </div>
         </div>

@@ -3,13 +3,14 @@ import Card from './components/Card';
 import Perfil from './assets/perfil.png';
 import ContainerExperiencias from './components/ContainerExperiencias';
 import Ipam from './assets/ipam.svg';
-import Uniron from './assets/uniron.svg';
+import Uniron from './assets/uniron.png';
 import Samar from './assets/samar.svg';
 import Coimbra from './assets/coimbra.svg';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 import Cursos from './Pages/Cursos';
 import PerfilPdf from './components/PerfilPdf';
+import Formacao from './components/Formacao';
 
 function App() {
   return (
@@ -41,31 +42,31 @@ function App() {
             </div>
           </div>
           <PerfilPdf/>
-    
+        
+       
           <div className="Content-img">
             <img src={Perfil} alt="" />
           </div>
         </div>
       </div>
-      <div name="formacao">
       <div className="textoFormacao">
         <p id='formacao'>Formação</p></div>
-      <div className="grid-container-formacao">
-        <ContainerExperiencias
-          class="grid-item"
-          img={Uniron}
-          titulo="Sistema de informação"
-          subtitulo="Bacharel."
-        />
-        <ContainerExperiencias
-          class="grid-item"
-          img={Uniron}
-          titulo="CST em Redes de Computadores"
-          subtitulo="Tecnólogo."
-        />
-      </div>
 
-      <div className="textoExperencia">
+        <div name="cursos">
+      <Formacao>
+      </Formacao>
+      </div>
+    
+        <div className="textoFormacao">
+        <p id='formacao'>Cursos</p></div>
+
+        <div name="cursos">
+      <Cursos >
+      </Cursos>
+      
+     
+      </div>
+        <div className="textoExperencia">
         <p id="experiencia"> Experiências</p></div>
       <div className="grid-container-experiencia">
         <ContainerExperiencias
@@ -93,15 +94,9 @@ function App() {
           subtitulo="Teste com cypress, selenium, montagem de cenarios "
         />
  </div>
-      </div>
+    
 
-      <div className="textoFormacao">
-        <p id='formacao'>Cursos</p></div>
-
-        <div name="cursos">
-      <Cursos >
-      </Cursos>
-      </div>
+    
       <div name="projetos">
       <div className='carousel'>
         <Carousel />

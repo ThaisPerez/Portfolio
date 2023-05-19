@@ -12,7 +12,7 @@ export default function PerfilPdf() {
   target="_blank"
   rel="noreferrer"
 >
-<button class="botaoPerfil">Baixar Currículo</button>
+<botao class="botaoPerfil">Baixar Currículo</botao>
 </a>
 </div>
 
