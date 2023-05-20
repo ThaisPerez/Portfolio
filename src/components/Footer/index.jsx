@@ -1,18 +1,38 @@
 import "./styles.css";
-import Linkedin from "./../../assets/linkedin.svg"
-import Whatsapp from "./../../assets/whatsapp.svg"
-import Git from "./../../assets/git.png"
+
 import { BrowserRouter as Router } from "react-router-dom";
 
 export default function Footer (){
   return (
     <Router>
-    <div className=" footerContainer">
-      
-    <a href="https://wa.me/5569992306659">  <img src={Whatsapp} alt="" /></a>
-    <a href="https://github.com/ThaisPerez"> <img src={Git} alt="" /></a>   
-    <a href="https://www.linkedin.com/in/thais-perez-uch%C3%B4a-337573165/"> <img src={Linkedin} alt="" /> </a>
-    </div>
+    <div className="ContainerFooter">
+    <ul>
+  <li>
+    <a href="#">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <span> - Facebook</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <span> - Twitter</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <i class="fa fa-google-plus" aria-hidden="true"></i>
+      <span> - Google</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <span> - Instagram</span>
+    </a>
+  </li>
+  </ul>
+  </div>
     </Router>
   );
 }

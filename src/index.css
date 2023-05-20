@@ -62,9 +62,9 @@ position: relative;
 }
 .grid-container-experiencia {
   display: grid;
-  grid-template-columns: 261px 261px 261px 261px ;
+  grid-template-columns: 320px 320px 320px 320px ;
   padding: 10px;
-  gap: 50px;
+  gap: 120px;
   justify-content: center;
 }
 

@@ -37,7 +37,7 @@ export default function Cursos() {
           <div class="face face2">
             <div class="content">
               <p></p>
-            <a href="http://localhost:3000/">Read More</a>
+          
             </div>
           </div>
         </div>
@@ -52,7 +52,6 @@ export default function Cursos() {
           <div class="face face2">
             <div class="content">
               <p></p>
-            <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
         </div>
@@ -85,7 +84,6 @@ export default function Cursos() {
            teste
             </p>
               <p></p>
-            <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
         </div>
@@ -99,7 +97,6 @@ export default function Cursos() {
           <div class="face face2">
             <div class="content">
               <p></p>
-            <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
         </div>  <div class="card">
@@ -112,7 +109,6 @@ export default function Cursos() {
           <div class="face face2">
             <div class="content">
               <p></p>
-            <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
         </div>
@@ -126,7 +122,6 @@ export default function Cursos() {
           <div class="face face2">
             <div class="content">
               <p></p>
-            <a href="http://localhost:3000/">Read More</a>
             </div>
           </div>
         </div>        

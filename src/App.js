@@ -3,7 +3,7 @@ import Card from './components/Card';
 import Perfil from './assets/perfil.png';
 import ContainerExperiencias from './components/ContainerExperiencias';
 import Ipam from './assets/ipam.svg';
-import Uniron from './assets/uniron.png';
+import Uniron2 from './assets/uniron2.png';
 import Samar from './assets/samar.svg';
 import Coimbra from './assets/coimbra.svg';
 import Carousel from './components/Carousel';
@@ -77,7 +77,7 @@ function App() {
         />
         <ContainerExperiencias
           class="grid-item"
-          img={Uniron}
+          img={Uniron2}
           titulo="Analista de redes e de Comunicação "
           subtitulo="Manuntenção, formação, instalação, limpeza.."
         />
@@ -103,12 +103,12 @@ function App() {
         </div>
       </div>
       <div name="contato">
-      <Footer />
+     
       </div>
       <div className="ContainerCard">
       </div>
       <div>
-
+      <Footer />
     </div>
     </div>
 
