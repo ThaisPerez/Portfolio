@@ -72,7 +72,7 @@ function App() {
         <ContainerExperiencias
           class="grid-item"
           img={Ipam}
-          titulo="Estágio - CPD"
+          titulo="Estágio"
           subtitulo="Manuntenção, formação, instalação, limpeza."
         />
         <ContainerExperiencias
