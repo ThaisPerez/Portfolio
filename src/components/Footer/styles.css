@@ -124,11 +124,12 @@ background: #39dd91;
 }
 
 ul li:hover:nth-child(4) a{
-background: #e4405f;
+  background: linear-gradient(rgba(242,78,30,1), rgba(162,89,255,1) 35%, rgba(2,208,132,1) 100%);
 }
 ul li:hover:nth-child(4) a:before{
-background: #d81c3f;
+  background: linear-gradient(rgba(242,78,30,1), rgba(162,89,255,1) 35%, rgba(2,208,132,1) 100%);
+
 }
 ul li:hover:nth-child(4) a:after{
-background: #e46880;
+  background: rgba(2,208,132,1) ;
 }

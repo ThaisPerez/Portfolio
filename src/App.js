@@ -102,9 +102,7 @@ function App() {
         <Carousel />
         </div>
       </div>
-      <div name="contato">
-     
-      </div>
+      <div name="contato"></div>
       <div className="ContainerCard">
       </div>
       <div>

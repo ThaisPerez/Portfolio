@@ -6,9 +6,12 @@ import Docker from './../../assets/docker.png'
 import Rede from './../../assets/rede.png'
 import Banco from './../../assets/banco.png'
 import Sofware from './../../assets/2.png'
+import { BrowserRouter as Router } from "react-router-dom";
+
 
 export default function Cursos() {
   return (
+    <Router>
         <div class="Teste">
          <div>
       <div class="containerCursos">
@@ -22,7 +25,8 @@ export default function Cursos() {
           <div class="face face2">
             <div class="content">
               <p></p>
-              <h5>2022</h5>
+              <h5>2023</h5>
+            <p>Udemy.</p>
             </div>
           </div>
         </div>
@@ -36,8 +40,8 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-              <p></p>
-          
+            <h5>2023</h5>
+            <p>Udemy.</p>
             </div>
           </div>
         </div>
@@ -46,12 +50,13 @@ export default function Cursos() {
           <div class="face face1">
             <div class="content">
             <img src={Seguranca} alt="" />
-                <h3>Git e GitHub</h3>
+                <h3>Segurança</h3>
             </div>
           </div>
           <div class="face face2">
             <div class="content">
-              <p></p>
+            <h5>2023</h5>
+            <p>Udemy.</p>
             </div>
           </div>
         </div>
@@ -64,10 +69,9 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-            <p id="descricaoCurso">
-           
-            <h5> DOCKER Completo - Do Zero ao Avançado 2023</h5>  </p>   
-              <p></p>
+                   
+            <h5>2022</h5>
+            <p>Udemy.</p>
             </div>
           </div>
         </div>
@@ -81,9 +85,9 @@ export default function Cursos() {
           <div class="face face2">
             <div class="content">
             <p id="descricaoCurso">
-           teste
             </p>
-              <p></p>
+            <h5>2023</h5>
+            <p>Udemy.</p>
             </div>
           </div>
         </div>
@@ -96,7 +100,8 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-              <p></p>
+            <h5>2023</h5>
+            <p>Udemy.</p>
             </div>
           </div>
         </div>  <div class="card">
@@ -108,7 +113,8 @@ export default function Cursos() {
           </div>
           <div class="face face2">
             <div class="content">
-              <p></p>
+            <h5>2023</h5>
+            <p>Udemy.</p>
             </div>
           </div>
         </div>
@@ -116,12 +122,13 @@ export default function Cursos() {
           <div class="face face1">
             <div class="content">
             <img src={Sofware} alt="" />
-                <h3>Git e GitHub</h3>
+                <h3>Hardware e Software</h3>
             </div>
           </div>
           <div class="face face2">
             <div class="content">
-              <p></p>
+            <h5>2023</h5>
+            <p>Udemy.</p>
             </div>
           </div>
         </div>        
@@ -129,6 +136,8 @@ export default function Cursos() {
           </div>
 
           </div>
+
+           </Router>
        
      
   )

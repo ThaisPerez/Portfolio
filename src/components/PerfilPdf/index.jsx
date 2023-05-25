@@ -2,6 +2,7 @@
 import './styles.css'
 import ExamplePdf from './../../assets/teste.pdf';
 
+
 export default function PerfilPdf() {
     return (
      

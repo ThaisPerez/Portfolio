@@ -7,6 +7,7 @@ import { dataDigitalBestSeller } from './data';
 import Semtitulo from './../../assets/suporte.png';
 
 function Carousel() {
+  
   const [defaultImage, setDefaultImage] = useState({});
   const settings = {
     dots: true,
