@@ -1,6 +1,6 @@
 import Screenshot from '../../assets/Screenshot_2.png'
 import Suporte from '../../assets/suporte.png'
-import Portfolio from './../../assets/portfolio.png'
+import Portfolio from './../../assets/portfolio.jpg'
 
 
 export const dataDigitalBestSeller = [
