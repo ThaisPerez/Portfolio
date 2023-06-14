@@ -1,6 +1,6 @@
 
 import './styles.css'
-import ExamplePdf from './../../assets/teste.pdf';
+import ExamplePdf from './../../assets/ThaisPerez.pdf';
 
 
 export default function PerfilPdf() {
